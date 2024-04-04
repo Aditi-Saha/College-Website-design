@@ -1,0 +1,37 @@
+@media(max-width:990px){
+    .logo1{
+        display: none;
+    }
+    .announcements__text{
+        display: none;
+      }
+      .aboutimg{
+        width: 100%;
+      }
+      .d_imgs{
+        width: 100%;
+      }
+      .data{
+        padding-top: 9vh; 
+        padding-left: 4vh;
+      }
+      .navbar_links{
+      height: 50%;
+      background-color: white;
+      border-radius: 0%;
+      background-color: #c21717;
+      }
+      .gallery-button{
+        width: 30%;
+      }
+      
+}
+@media (min-width:991px){
+    .logo2{
+        display: none;
+    }
+    .slider img{
+      height: 430px;
+      object-fit: cover;
+  }
+  }

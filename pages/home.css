@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+.css-selector {
+    font-family: 'Poppins', serif;
+}
+.css-selector2{
+        font-family: 'Open Sans', serif;
+}
+.announcements__text{
+    font: 16px / 40px ;
+    background: #000f3a;
+    float: left;
+    color: #fff;
+    margin: 0;
+    padding-right: 55px;
+    padding-left: 50px;
+    padding-bottom: 14px;
+    position: relative;
+    padding-top: 14px;
+}
+.catg_title{
+    text-decoration: none;
+    text-align: center;
+}
+.logo1{
+    font-size: 30px;
+}
+.logo1 img{
+       width: 80px;
+}
+.logo2 img{
+    width: 80px;
+}
+.navbar_links{
+    background-color: #c21717;
+    border-radius: 50%;
+    border-radius: 50px;
+    padding: 10px;
+}
+.nav-link:hover{
+    background-color: #f3aaaa;
+    border-radius: 50px;
+}
+
+.catg_title{
+    text-decoration: none;
+    text-align: center;
+}
+.aboutimg{
+    width: 45%;
+    float: left;
+    padding-right: 20px;
+}
+.heading h3{
+    background: #f0dcdc;
+    color: #c21717;
+}
+.parallax {
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chairman_img{
+    width: 85%;
+}
+.d_imgs{
+    width: 75%;
+}
+.gallery_imgs{
+    max-width: 100%; 
+    height: auto; 
+}
+.modal-img{
+    width: 100%;
+}
+.data{
+    padding-top: 10vh; 
+    padding-left: 82vh;
+}
+.imlogo-img{
+    width: 25%;
+}
+
+.heading {
+    text-align: center;
+  }
+
+
+  .container1 {
+    position: relative;
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    height: 1005;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E48F45;
+  }
+  
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .gallery-img{
+    width: 100%;
+  }
+  .gallery-button{
+    width: 10%;
+  }
